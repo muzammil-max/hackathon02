@@ -104,6 +104,14 @@ const Navbar = () => {
                 Products
               </Link>
             </li>
+            <li>
+              <Link
+                href="/shoppingcart"
+                className="text-sm font-medium text-gray-600 hover:text-black transition"
+              >
+                View Cart
+              </Link>
+            </li>
           </ul>
         </div>
       )}
