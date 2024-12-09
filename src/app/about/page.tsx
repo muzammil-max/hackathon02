@@ -72,7 +72,7 @@ const About = () => {
         <div className="flex flex-wrap justify-center md:justify-evenly px-4 py-10 gap-8">
           {[
             {
-              img: "/Delivery.png",
+              img: "/delivery.png",
 
               title: "Next day as standard",
               desc: "Order before 3pm and get your order the next day as standard",

@@ -8,7 +8,6 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false); // State to toggle menu visibility
 
   const menuItems = [
-    "All products",
     "Plant pots",
     "Ceramics",
     "Tables",
@@ -70,7 +69,6 @@ const Navbar = () => {
           <CiSearch className="text-xl text-gray-600 hover:text-black cursor-pointer transition" />
           {/* Cart Icon */}
           <Link href="/shoppingcart">
-             
             <CiShoppingCart className="text-xl text-gray-600 hover:text-black cursor-pointer transition" />
           </Link>
         </div>
@@ -100,10 +98,10 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                href="/contact"
+                href="/products"
                 className="text-sm font-medium text-gray-600 hover:text-black transition"
               >
-                Contact
+                Products
               </Link>
             </li>
           </ul>
