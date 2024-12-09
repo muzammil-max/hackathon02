@@ -26,7 +26,7 @@ const About = () => {
             A global brand with local beginnings, our story began in a small
             studio in South London in early 2014.
           </p>
-          <button className="bg-input-bg h-12 w-40 rounded-sm mt-10 text-black bg-white hover:bg-black duration-100  hover:text-white duration-100 ">
+          <button className="bg-input-bg h-12 w-40 rounded-sm mt-10 text-black bg-white hover:bg-black   hover:text-white duration-100 ">
             View Collection
           </button>
         </div>
